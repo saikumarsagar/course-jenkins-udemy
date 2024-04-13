@@ -38,10 +38,13 @@
 
 	<build>
 		<plugins>
+			<!-- Commented out the Sonar Maven plugin configuration for Python -->
+			<!--
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
 			</plugin>
+			-->
 		</plugins>
 	</build>
 
