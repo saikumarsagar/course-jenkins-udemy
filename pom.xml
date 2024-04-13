@@ -42,13 +42,13 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<!-- Commented out the Sonar Maven plugin configuration for Python -->
-			<!--
+			
 			<plugin>
 				<groupId>org.sonarsource.scanner.maven</groupId>
 				<artifactId>sonar-maven-plugin</artifactId>
+			        <version>3.10.2.1853</version>
 			</plugin>
-			-->
+			
 		</plugins>
 	</build>
 
